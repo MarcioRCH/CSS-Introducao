@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+:root{
+    --color-red: #F03C42;
+    --color-purple: #222374;
+    --color-white: #ffff;
+    --color-black: #000000;
+    --color-gray: #cccc;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+header{
+    background-color: var(--color-red);
+    color:var(--color-white);
+    height: 100px;
+}
+.header-container-title{
+    font-size: 18px;
+    width: 100%;
+    max-width: 960px;
+}
+.header-container-link{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 18px;
+}
+#about{
+    background-color: var(--color-purple);
+    height: 418px;
+}
+.container-about{
+    width: 100%;
+    max-width: 960px;
+    align-items: center;
+    margin: 0 auto;
+}
+.about-description-title h2{
+    font-size: 32px;
+    color: var(--color-white);
+    padding: 20px 0 20px 0;
+    width: 100%;
+    max-width: 960px;
+}
+.about-description{
+    background-color: var(--color-gray);
+    height: 127px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.about-description h3{
+    padding: 20px 20px 0 20px;
+    font-size: 20px;
+}
+.about-description p{
+    padding: 20px;
+    font-size: 14px;
+}
+#modalities{
+    background-color: var(--color-white);
+    height: 880px;
+}
+.container-modalities{
+    width: 100%;
+    max-width: 960px;
+    align-items: center;
+    margin: 0 auto;
+}
+.modalities-description-title h2{
+    font-size: 32px;
+    color: var(--color-red);
+    padding: 20px 0 40px 0;
+}
+.modalities-description {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    height: 106px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.modalities-description h3{
+    padding: 20px 0 0 20px;
+    font-size: 20px;
+}
+.modalities-description p{
+    padding: 20px 0 20px 20px;
+    font-size: 14px;
+}
+footer{
+    background-color: var(--color-black);
+    color:var(--color-white);
+    font-size: 14px;
+    height: 262px;
+}
+.container-footer{
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.footer-container-link{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.footer-container-address{
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+}
